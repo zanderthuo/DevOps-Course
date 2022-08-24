@@ -1,0 +1,36 @@
+# Blameless Postmortems
+ - Do it within 48 hours.
+ - Have the team build a timeline.
+ - Have a third party run the meeting.
+
+  - Objective events on what happened in the Postmortem meeting.
+
+# Run Blameless Postmortems
+  - Description of the incident
+  - Description of the root cause
+  - How the incident was stabilized or fixed
+  - Timeline of events and actions taken
+  - How customers were affected
+  - Remediations and corrections
+
+# Rules for Postmortem Communication
+ - Admit failure.
+ - Sound like a human
+ - Have a communication channel
+ - Above all else, be authentic.
+
+Kaizen - In a business context, continuous improvement
+
+Kaizen's Guiding Principles
+ - Good processes bring good results
+ - Go see for yourself(gemba)
+ - Speak with data and manage by facts
+ - Take action to contain and correct root causes
+ - Work as a team
+ - Kaizen is everybody's business
+
+The Five Whys
+- Focus on underlying causes, not symptoms
+- Don't accept answers like "not enough time"
+- Track the forks in your five Whys
+- Don't accept human error as a root cause

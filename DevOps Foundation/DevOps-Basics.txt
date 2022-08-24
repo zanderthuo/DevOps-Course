@@ -1,0 +1,69 @@
+What is DevOps - The practice of operations and development engineers participating together
+                 in the entire service lifecycle, from design through the development process
+                 to production support
+
+               - Five Levels of DevOps:
+                  i) Values
+                  ii) Principles
+                  iii) Methods
+                  iv) Practices
+                  v) Tools
+
+                  DEVELOPMENT          +          OPERATIONS
+                   - Developers                    - System admins
+                   - Front end                     - Network admins
+                   - Backend                       - Database admins
+                   - QA
+
+DevOps core Values: CAMS
+
+Culture
+Automation - People, process and Tools
+Measurement
+Sharing
+
+Principles:
+ (The three ways(phoenix project, Lean IT) )
+  - Systems Thinking -> We should focus on overall outcome of the entire pipeline of value chain.(To create team processes)
+    From Concept to Cash
+  - Amplify Feedback Loops -> Use when creating multi-team processes
+                           - Visualizing Metrics
+                           - Designing delivery flows
+                           (To create team standards)
+  - Continuous Experimentation - Try to see what work or what doesn't work(As part of management style)
+
+# DevOps Methodologies
+i) People over Process over Tools
+ii) Continuous Delivery - Coding, testing and releasing code in small releases
+iii) Lean Management - Work in small batches
+                     - Work in progress limits
+                     - Feedback Loops
+                     - Visualization
+vi) Visible ops-style Change Control - Eliminate fragile artifacts
+                   - Create a repeatable build process
+                   - Manage dependencies
+                   - Create an environment of Continuous improvement
+v) Infrastructure as Code - System treated like Code
+                          - Checked into source Control
+                          - Reviewed, built, and tested
+                          - Managed programmatically
+
+# 10 Practices for DevOps Success
+
+1. Chaos Monkey
+2. Blue/Green Deployment
+3. Dependency Injection
+4. Andon Cords
+5. The Cloud
+6. Embedded Teams
+7. Blameless Postmortems
+8. Public Status Pages
+9. Developers on Call
+10. Incident Command System
+
+
+# DevOps tools: The cart or the horse
+  Tool Criteria
+    - Programmable
+    - Verifiable
+    - Well behaved

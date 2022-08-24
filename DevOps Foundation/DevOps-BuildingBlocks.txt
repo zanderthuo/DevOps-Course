@@ -1,0 +1,35 @@
+# Manifesto for Agile Software Development
+ - We are uncovering better ways of developing software by doing it 
+   and helping others do it.
+
+Through this work we have come to value:
+  - Individuals and interactions over processes and tools
+  - Working software over comprehensive documentation
+  - Customer collaboration over contract negotiation
+  - Responding to change over following a plan
+
+Lean - A systematic process of eliminating waste.
+
+Seven Principles of Lean Software
+  i) Eliminate waste.
+  ii) Amplify learning.
+  iii) Decide as late as possible
+  iv) Decide as fast as possible
+  v) Empower the team
+  vi) Build in integrity
+  vii) See the whole
+
+    ## Forms of Waste in Software Development
+      - Partially done Work
+      - Extra features
+      - Relearning
+      - Handoffs
+      - Delays
+      - Task Switching
+      - Defects
+
+    ## Build, Measure, learn
+      - Build the minimum viable product.
+      - Measure the outcome and internal metrics.
+      - Learn about your problem and your solution.
+      - Repeat. Go deep where it's needed.
