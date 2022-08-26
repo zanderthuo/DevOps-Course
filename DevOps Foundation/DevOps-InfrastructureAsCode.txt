@@ -1,0 +1,48 @@
+- Infrastructure as Code (IaC) is the managing and provisioning of infrastructure through code instead of through manual processes.
+
+# Term used
+  - Provisioning - Making a server ready for operation, including h.w, OS, System services,
+    and network connectivity.
+  - Deployment - Automatically deploying and upgrading applications on a server.
+  - Orchestration - Act 0f Performing coordinated operations across multiple systems.
+  - Configuration Management - Management of change control for system configuration after initial provision;
+    maintaining and upgrading the application and its dependencies.
+    - Imperative(Procedural) - Commands necessary to produce a desired state are defined and executed.
+    - Declarative (Functional) - A desired state is defined, relying on the tool to configure a system to match that state.
+    - Idempotent - The a
+    - Self-service - The ability for an end user to initiate a process without having to go through other people
+
+# Some Deployment Techniques
+- Canary(Staged)Deployment - Upgrade one server in a fleet and see how it works before upgrading to the rest of the fleets.
+- Blue/Green Deployment - Have two identical environments, one is production, one is staging. New code is put in staging then the two
+  environments are swapped.
+
+  # The Configuration Management pipeline
+
+  code ----------> Build ----------> App
+                                      |
+                                      |
+                                      |
+                                      |
+                            install   |
+               servers <--------------|
+            /                         |
+           /                          |
+          /                           |
+         /                            |
+        /                   install   |
+  Recipe-----> servers <--------------|
+        \                             |
+         \ Provision                  |
+          \                           |
+           \                          |
+            \                install  |
+             \  servers <-------------|
+
+Configuration Management Tools
+  - Chef
+  - Puppet
+  - Ansible
+  - Salt
+  - CFEngine
+  - Packer

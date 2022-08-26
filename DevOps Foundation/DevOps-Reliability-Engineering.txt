@@ -1,0 +1,56 @@
+Reliability - The ability of a system or component to function under stated conditions for a specified period of time.
+Mean Time to Recovery (MTTR) - How quickly a servic
+Mean Time between Failures(MTBF) - The average time between service disruptions
+
+# Design for operation: Theory
+
+# How Complex Systems Fail
+  - Change introduces new forms of failure
+  - Complex systems contain changing mixtures of failures latent within them
+  - All complex systems are always running in degraded mode
+
+# Lean Approach
+  - Build
+  - Measure
+  - Learn
+  - Repeat
+
+# Metrics
+
+i) Service Performance and Uptime
+  - Synthetic checks
+ii) Software Component Metrics
+  - Ports and processes of host
+iii) System Metrics
+  - Time series metrics
+iv) App Metrics
+  - What your application is doing
+v) Performance
+  - APM - application performance management
+  - RUM - real user monitoring
+vi) Security
+  - 
+
+# Logging
+Five Ws of Logging
+ - What happened
+ - When did it happen
+ - Where did it happen
+ - Who was involved
+ - Where did that entity come from
+
+# Centralized Logging principles
+
+- Don't collect data you won't use
+- Keep logs for as long as they can be used.
+- Alert only on what you must respond to.
+- Don't exceed business security needs.
+- Logs change.
+
+
+# SRE Toolchain
+i) Software as a Service Monitoring
+ii) Open-Source Monitoring
+    - Grafana
+    - Graphite
+    - Influxdb

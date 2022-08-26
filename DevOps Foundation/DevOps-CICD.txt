@@ -1,0 +1,73 @@
+- Continuous Integration - Automatically building and unit testing the entire application
+- Continuous Delivery - Deploying every change to a production-like environment, and performing 
+                      automated integration and acceptance testing.
+- Continuous Deployment - After testing every change, automatically deploying to production
+
+# Importance
+ - Time to market goes down.
+ - Quality increases not decreases.
+ - This limits your work in progress.
+ - Shortens lead times for changes.
+ - Improves mean time to recover
+
+# Continuous Integration
+  - Practices when doing CI
+    i) Builds should pass the coffee test(less than 5 minutes)
+    ii) Commit really small bits of code.
+    iii) Don't leave the build broken
+    iv) Use a trunk-based development flow.
+      - No long running branches
+      - Multiple commits each day
+    v) Don't allow flaky tests.
+    vi) The build should return a status, a log, and an artifact.
+
+# Continuous Delivery
+  - Deploying every change to a production-like environment, and performing automated integration and acceptance testing.
+    i) Only build artifacts once.
+    ii) Artifacts should be immutable.
+    iii) Staging should be a copy of production.
+    iv) Stop deploys if a previous step fails.
+    v) Deployments should be idempotent.
+
+# Types of Testings
+  i) Unit testing
+    - Lowest level of Testing
+    - Write inside of code base
+
+  ii) Code hygiene
+  - Linting
+  - Code formatting
+  - Baned formatting
+  iii) Integration Testings
+  - Similar to unit testing but with all the apps components and dependencies in a test environment.
+  iv) TDD, BDD, ATDD
+  - Test Driven Development
+    - State desired outcome as a test
+    - Write code to pass the test
+    - Repeat
+  - Behavior-Driven Development
+    - Work with stakeholders
+    - Describe business functionality
+    - Base tests on natural language description
+  - Acceptance-test Driven Development
+    - Scenarios are from the end users' perspective
+    - Use cases are the basis of automated Testing
+    - Testing is Continuous during development
+
+  NB: Dealing with Slow Tests
+      - Use nonblocking tests in your pipeline
+      - Use time-scheduled testing(e.g nightly)
+      - Use monitoring to accomplish your testing goals
+
+  v) Infrastructure Testing
+    - Involves starting up a host, running the configuration management code, running all the tests then turn it off.
+  vi) Performance Testing
+  vii) Security Testing
+
+# Continuous Delivery
+  - Version control
+  - Continuous Integration Systems
+  - Build
+  - Test
+  - Artifact repository
+  - Deployment

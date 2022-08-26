@@ -1,0 +1,10 @@
+10. Visible Ops Handbook By Kevin Behr, Gene Kim
+9. Continuous Delivery By Jez Humble and David Farley
+8. Release It! By Michael Knightguard
+7. Effective DevOps
+6. Lean Software Development
+5. Web Operations By John Allspaw
+4. The Practice of cloud System Administration
+3. DevOps Handbook By Gene Kim
+2. Leading the Transformation
+1. The Phoenix Project By Gene Kim, Kevin Behr
