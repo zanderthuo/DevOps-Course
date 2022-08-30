@@ -1,0 +1,15 @@
+Continuous Integration - The practice of automatically building and unit testing for
+                         an entire application frequently, ideally on every source code check-in.
+Continuous Delivery - The practice of deploying every build to a production-like environment
+                      and performing automated integration and acceptance testing.
+Continuous deployment - The practice of automatically deploying every build to production after it
+                        passes its automated tests.
+
+# Benefits of Continuous Delivery
+- Empowering Teams
+- Lowered Cycle Times
+- Better Security
+- Rhythm of Practice
+- More Time to be Productive
+
+# Build pipelines

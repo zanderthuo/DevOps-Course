@@ -1,0 +1,18 @@
+Ansible - an open source IT Configuration Management, Deployment & Orchestration tool.
+          It aims to provide large productivity gains to a wide variety of automation challenges.
+          This tool is very simple to use yet powerful enough to automate complex multi-tier IT application environments.
+          Ansible is written in Python.
+          Playbooks are written in YAML.
+
+Life Before Ansible
+
+Many Years Ago
+ - Server admins siloed
+ - "By hand" management
+ - Server tools developed
+ - Virtualization drove push for automation
+
+Recently
+  - The growth of DevOps
+  - Server teams work with development stuff
+  - Ease and transparency of collaboration.

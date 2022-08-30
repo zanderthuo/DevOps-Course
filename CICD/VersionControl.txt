@@ -1,0 +1,19 @@
+# Version Control
+- Version control contains all the source code for your project and maintains
+  the current and historical state of the code.
+- Version control needs to be used by all teams who touch the software.
+
+# Best practices for Version control
+- Always use Version control
+- Put it all in Version control
+- Commit often.
+- Use easy-to-understand commit messages.
+- Don't commit broken code.
+- Consider using master branch approach.
+- Developing off trunk or master generally offers better performance.
+- Commit hooks enforce quality.
+- Be careful with secrets
+
+Webhooks - Webhooks allow external services to be notified when certain events happen.
+         - When the specified events happen, we'll send a POST request to each of the URLs you
+           provide.
