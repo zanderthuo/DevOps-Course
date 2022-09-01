@@ -1,0 +1,16 @@
+# Artifacts
+ - An artifact is a byproduct of software development that helps describe the architecture,
+  design and function of software. Artifacts are like roadmaps that software developers can
+  use to trace the entire software development process. Artifacts might be databases, data models,
+  printed documents or scripts
+
+# Benefits of Artifacts
+ - Reliability
+ - Composability
+ - Security
+ - Shareability
+
+# Plan Ahead
+  - Packaging format
+  - Dependency management
+  - Artifact repo

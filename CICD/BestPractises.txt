@@ -1,0 +1,15 @@
+# Best practices in CI/CD
+  - Each Developer is responsible for their check-in through deployment
+  - Small changes. Build quality in.
+  - Don't check in broken builds.
+  - Own your build
+    - Take responsibility for your build
+    - Immediately address a broken build
+    - Revert if fixing takes time
+    - No check-ins while build is broken-the line stops
+  - Automate high-quality testing.
+  - Run tests before check-in
+  - Fix flaky tests
+  - Don't ignore or disable tests.
+  - Automate deployments.
+  - Keep the build and deploy first.

@@ -1,0 +1,14 @@
+# Deploy with
+- The same artifact
+- The same way
+- The same (similar) environment
+- The same smoke tests
+
+- Deploy small batches
+- Keep changes loosely coupled to each other.
+  - Two changes shouldn't be deployed together.
+  - Use versioning for smooth handling
+
+# Separate Deploy and Release
+  - Blue/green deployments
+  - Feature flags

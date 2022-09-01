@@ -12,4 +12,12 @@ Continuous deployment - The practice of automatically deploying every build to p
 - Rhythm of Practice
 - More Time to be Productive
 
-# Build pipelines
+# Principles and Practices when using a CI system
+  - Start with a clean environment.
+  - Build to pass the coffee test.
+  - A CI Culture
+    - Run tests locally before committing
+    - Don't commit new code to broken builds
+    - Don't leave the build broken
+    - Don't remove tests that fail
+  - Use notifications to update your build progress.

@@ -1,0 +1,40 @@
+# Good Tests
+  - Are fast
+  - Are reliable
+  - Isolate failures for you
+
+# Types of Testing
+- Unit testing - Peformed at build time on a single unit of code and/or artifact
+                 without use of external dependencies or deployment
+                 Example tools: JUnit, XUnit, Rspec
+- Integration testing - Performed as you bring together pieces of your application
+                        and as it needs to use external dependencies
+                        Example tools: Abao/RAML and Serverspec
+- End to end (UI) testing - Performed to exercise the full flow of your application
+                            in the same way an end user would
+                            Example tools: Selenium and Protractor
+- Security testing - Performed to look for flaws in your code and runtime to prevent
+                     compromises and leaking of data in production
+                     Example tools: FindBugs, Fortify, and Gauntlt
+
+# Testing Terminologirs
+  - Shift left - Move testing as eary as possible in the development process, ideally
+                to the dev desktop.
+  - Test fixture - A set of objects used to run a test in a well-known environment
+  - System under Test (SUT) - The application and system on which you are running your tests
+  - Cycle time - The time from when an item (feature or bug fix) is worked on until it is
+                 delivered into production
+  - Lead time - The time taken from when an item (feature or bug fix) is requested until it is delivered
+                into production
+  - Mock - Code designed to stand in for a piece of code that contains external dependencies to enable
+           unit tests.
+
+# Testing Philosophy
+  - Test Driven Development (TDD) - The practice of writing a failing test first, and then writing the code that causes the test to pass.
+  - Behavior-driven development (BDD) - The practice of writing tests in a simple end-user-behavior-centric language.
+  - Acceptance test-driven development (ATDD) - The practice of agreeing on acceptance tests before development to establish what is to be delivered
+
+# The Big Three Testing Metrics
+ - Cycle time - time from the start of work to delivery
+ - Velocity - value delivered per unit time
+ - Customer satisfaction - How well a product/service met the Customer's needs. NPS scores and bug reports work well here.
