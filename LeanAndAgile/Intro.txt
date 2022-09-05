@@ -1,0 +1,101 @@
+# The Agile Software Development Mainifesto
+  - Individuals and interactions over tools and processes
+  - Working software over comprehensive documentation
+  - Customer collaboration over contract negotiation
+  - Responding to change over following a plan
+
+# Principles
+  1) Our highest priority is to satisfy the customer through
+     early and continuous delivery of valuable software.
+  2) Welcome changing requirements, even late in Development.
+     Agile processes harness change for the customer's competitive advantage.
+  3) Deliver working software frequently, from a couple of weeks to a couple
+     of months with a preference to the shorter timescale.
+  4) Business people and developers must work together daily throughout the project
+  5) Build projects around motivated individuals. Give them the environment and 
+     support they need, and trust them to get the job done.
+  6) The most efficient and effective method of conveying information to and within a
+     development team is face-to-face conversation.
+  7) Working software is the primary measure of progress.
+  8) Agile processes promote sustainable development. The sponsors, developers, and users
+     should be able to maintain a constant pace indefinitely
+  9) Continuous attention to technical excellence and good design enhances agility.
+  10) Simplicity - the art of maximizing the amount of work not done is essential.
+  11) The best architectures, requirements, and designs emerge from self-organizing teams.
+  12) At regular intervals, the team reflects on how to become more effective, then tunes
+      and adjusts its behavior accordingly
+
+# Agile Methodologies
+- Scrum
+- Kanban
+
+## Scrum
+- Type of play formation that's trying to move the ball to goal
+
+### Scrum Life Cycle
+Product Backlog -----> Sprint Backlog -----> Sprint (2-4weeks)(daily scrum) -----> Valuable product
+
+## Kanban Rules
+- Visualize the workflow
+- Limit work in progress
+- Manage the flow
+- Make process policies explicit
+- Improve collaboratively
+
+
+# LEAN
+- Lean is a systematic method to eliminate waste and maximize flow of value through a system.
+
+- Statistical Process Control - Use of statistics to monitor and control process
+- Just in Time - Increasing efficiency and decreasing waste by receiving goods only as they are needed
+
+## Value Stream Map
+Backlog -----> Development(Source Code) -----> Build(Artifact) -----> Release(Production System) -----> Customer
+
+### Wastes
+- Muda(waste) - Work that absorbs resources, but adds no value
+- Mura(unevenness) - Work coming in evenly instead of a constant or regular flow
+- Muri(unreasonable) - Unreasonable work imposed on workers and machines
+
+### Theory of constraints
+- A methodology for optimizing flow by identifying the limiting factor in a sysyem, improving it
+  until it is no longer the bottleneck, and repeating the process.
+
+### Lean Principles
+- Small deliverables and limiting work in progress
+- Information radiators and visibility into flow
+- Gathering, broadcasting, and implementing customer feedback
+- Empowered development teams free to experiment and improve
+
+Build-Measure-Learn
+- Build - minimum viable product
+- Measure - Outcome and internal metrics
+- Learn - About your problem and your solution
+- Repeat - Go deeper where it's needed.
+
+### Principles of Lean Software Development
+- Eliminate waste
+- Amplify learning
+- Decide as late as possible
+- Deliver as fast as possible
+- Empower the team
+- Build integrity
+- See the whole
+
+### The Seven Wastes of Lean Software
+- Partially done work
+- Extra features
+- Relearning
+- Handoffs
+- Delays
+- Task switching
+- Defects
+
+
+#####################################################
+- Jidoka - Autonomation; intelligent or humanized automation
+
+The Three ways
+   - Systems Thinking
+   - Amplify feedback Loops
+   - Culture of continuous experimentation and learning

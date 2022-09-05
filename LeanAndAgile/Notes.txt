@@ -1,0 +1,50 @@
+- Theory of Constraints - A methodology for optimizing  flow by identifying the
+  limiting factor in a system, improving it until it is no longer the bottleneck,
+  and repeating the process.
+- Minimum Viable Product - An initial deliverable of a product with just enough
+  features to engage early customers and start gathering feedback for future development
+
+- Nemawashi - Informally and quietly laying the groundwork for a proposed change or project,
+  by talking to the people concerned to gain their support.
+
+
+# Organizational Culture
+- Pathological
+- Bureaucratic
+- Generative
+
+# Chat
+- Build a channel
+- Alert channel
+- Deploy channel
+- Encourage questions
+
+# As You Scale
+- Reduce barriers to communication
+- Scaled Agile Framework (SAFe) can help reduce complexity
+- Goals and expectations should be clear
+- Empower your teams
+- Mistakes are expected, as are learning opportunities
+
+# Lean and Agile: The Bottom Line
+- Try something you think will work for your org.
+- Measure the results
+- Adjust
+- Iterate
+
+- Agile teams on common processes, tools, and work cultures to facilitate common change.
+
+
+## The Problems with Agile at Scale
+- Focus on managing cost instead of creating value
+- Investment decisions are not made using economic models
+- Work is batched up into projects: no effective prioritization
+- feedback loops are too slow: early decisions locked in
+- We waste the creative power of our people
+
+## Principles of high-performance program management
+- Collaborate to set measurable outcomes at the program level
+- Teams work to design and test hypotheses
+- Create fast feedback loops
+- Work in small batches
+- Create culture of experimentation
