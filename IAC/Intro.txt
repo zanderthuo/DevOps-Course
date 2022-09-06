@@ -1,0 +1,14 @@
+- Infrastructure as Code (IaC) is the managing and provisioning of infrastructure through code instead of through manual processes.
+
+- Imperative - Also known as Procedural; an approach where the commands
+               to produce a desired state are defined and executed in order.
+- Declarative(functional) - You define a desired state and the tool conforms
+                            the existing system to the model.
+
+- Artifacts - Deployable elements coming out of your build process compiled 
+              executables, OS packages, VM images, etc.
+
+    # 3 Areas of Infrastructure Testing
+      - Unit Testing - Tests the smallest testable components.
+      - Integration Testing - Tests a real running system.
+      - Security Testing - For both positive and negative security attributes.

@@ -44,6 +44,7 @@
 
 ## Principles of high-performance program management
 - Collaborate to set measurable outcomes at the program level
+  - Impact mapping
 - Teams work to design and test hypotheses
 - Create fast feedback loops
 - Work in small batches

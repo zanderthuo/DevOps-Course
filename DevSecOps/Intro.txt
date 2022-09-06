@@ -1,0 +1,176 @@
+DevSecOps - Merging of security into DevOps Processes
+          - Further the goal of giving dev teams more ownership
+          - Integrate automated security into every step of the process
+
+DevSecOps: Automation
+ - Key to being quick and Agile
+ - May affect which tools can be used
+ - Everything needs to happen quickly
+ - Don't automate pushing a button
+ - Real-time notification for developers
+ - ChatOps, not PDFs
+
+DevSecOps: Education
+ - Educate the developers on security basics
+ - Ensure that they have the tools and resources to fix security issues
+ - Key is to Empower the developers to own security
+
+Empowerment of Dev Team
+ - Give them the tools to security test
+ - They should be responsible for security of app
+ - Flip the role of security team to auditor
+
+# Moving Security to the Left
+  - DevOps wants to move everything 'left'
+  - Helps things get done more quickly
+  - Challenge is that development now has to be a jack of all trades
+
+# DevOps and the Cloud
+  - Advantages of both are the same
+  - Only effective way of going DevOps is in cloud
+  - Cloud could be internal or external, public or private
+
+What is an API?
+  - Application program interface
+  - Programmatic way to call remote applications
+  - Can get data, send data, or start a process
+
+What is an APIs Mean to DevSecOps?
+ - Large fat client scanning tools are gone
+ - Small tools and APIs are the future
+ - APIs enable
+    - Remote scanners
+    - Connectivity to testing systems and defect tracking
+
+API Key to DevSecOps Automation
+  - Takes the manual part out of the equation
+  - Allows for scripting
+  - Allows easy flexibly in testing
+
+# Finding the right toolset
+    Where to start
+      - Look at the tools currently used
+      - Be ready to throw out the old toolset
+      - Make tool selection a team effort
+
+    What Questions Do We Need to Ask?
+      - What languages do you need to support?
+      - What technologies do you need to use?
+      - What tests do you need to cover?
+      - How lightweight is the tool?
+      - Can it be automated?
+      - How long will it take?
+
+    Finding the Right toolset
+      - Open source is OK
+      - Consider different tools for different applications
+      - Key is to make it as easy as possible
+
+    Types of Tools
+      - Static Application Security Testing(SAST)
+        - Analyzes source code
+        - Supports one or more languages
+        - Tends to have very hight false positive rate
+            examples: Commercial; Fortify, AppScan, Checkmarx
+                      Open source; FindSecBugs, Brakeman, PMD
+      - Dynamic application security testing (DAST)
+        - Runs automated penetration scans
+        - Tries to hack into the website
+        - Scans take a long time to complete
+            examples: Commercial; WebInspect, Burp, AppSpider
+                      Open source; ZAP
+      - Interactive application security testing ( IAST)
+        - Security test happen while app is used
+        - Works using instrumentation
+        - Low false positive rate and immediate feedback
+        - Security testing is performed while unit test Runs
+        - immediate results that can be provided to dev team
+        - Perfect for DevOps security testing
+            examples: Commercial; Contrast, Seeker
+                      Open source; None available yet
+
+    Change It Up
+      - Change is OK
+      - Experiment to find out what works and what doesn't
+      - Use feedback loops
+
+    # CI: Continuous Integration
+      - Automated developer check-in
+      - After check-in, code is integrated
+      - Automated tests completed next
+
+    # CD: Continuous Deployment
+      - Next step after CI passes checks
+      - Automated release to production
+      - Usually goes together with CI
+      - CD can also mean Continuous Delivery
+
+    # CI/CD Advantages
+      - Very fast
+      - Very Agile
+      - Lower Cost
+      - Short feedback time
+
+    # CI/CD Challenges
+      - Very fast
+      - Different mindset
+      - Typical security process doesn't work
+
+  # Containers and Security
+    - Can be useful to security in DevSecOps and CI/CD
+    - Makes security quick and easy
+    - Create a container or security tests for similar applications
+    - Use the tools identified earlier
+    - Integrate with automation server
+    - Use an artifactory to keep up to date
+
+  # Get Started with DevSecOps
+    - Start easy
+    - Find a team that is passionate
+    - Start with a standard language or toolset
+    - Toolset doesn't have to be right the first time
+
+  # Where Does Security Team come in?
+    - Security experts are advisors and coaches
+    - Turn the security checks into code
+    - No PDFs
+
+  # Leverage Your Existing Processes
+    - Work with DevOps team to know what's in place
+    - Make security process flexible
+    - Tools chosen should work with different processes
+
+  # Key Processes to Have in Place
+    - Automated builds
+    - Automation tool
+    - Task tracking system
+    - Reliable unit tests
+
+  # Security Processes to be in Place
+    - Security testing
+    - Mobile application Testing
+    - Vulnerability scanning
+
+  # Automation on the Ops Side
+    - Vulnerability scanning
+    - Network security group review
+    - Automated patching compliance
+    - Encryption at rest
+
+  # Unified Tools
+    - Tools should be part of a single pipeline
+    - Dev = Detect
+    - Ops = Detect, Protect, and Block
+
+  # DevSecOps tool
+    - Find security bugs(find-sec-bugs)
+    *- OWASP ZED ATTACK PROXY PROJECT
+    - SQLMap
+    - OpenVAS
+    - Recon-ng
+    - OWASP Glue Tool Project
+
+  # Resources
+    - A DevSecOps Playbook by SANS Institute
+    - Continuous Application Security Playbook by Contrast Security
+    - Awesome DevSecOps at github.com
