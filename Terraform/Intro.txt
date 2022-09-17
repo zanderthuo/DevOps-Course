@@ -1,0 +1,6 @@
+What is Terraform?
+  - An infrastructure management tool that lets provision, manage and maintain
+    cloud resources in one set of code.
+
+  - Terraform is Not For Config management
+    - Deploy a server, but not what's on it
